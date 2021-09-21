@@ -7,6 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JpashopApplication {
 
 	public static void main(String[] args) {
+
+		LombokTest lmt = new LombokTest();
+		lmt.setData("Hello");
+		String data = lmt.getData();
+
+		System.out.println("data = " + data);
+
+
 		SpringApplication.run(JpashopApplication.class, args);
 	}
 
