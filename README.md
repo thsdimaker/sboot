@@ -9,12 +9,14 @@
 
  
 
-* Spring Boot
-* Gradle
-* Thymeleaf
-* JPA
-* HIBERNATE
-* H2(ver 1.4.200)
+* Spring Boot (Gradle)
+* View
+  * Thymeleaf
+* Database
+  * H2(ver 1.4.200)
+  * JPA
+  * HIBERNATE
+
 
 ### Problem -> Solution Document
 Use Notion
