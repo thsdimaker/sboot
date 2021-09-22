@@ -14,6 +14,7 @@
 * Thymeleaf
 * JPA
 * HIBERNATE
+* H2(ver 1.4.200)
 
 ### Problem -> Solution Document
 Use Notion
