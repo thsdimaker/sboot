@@ -9,7 +9,7 @@
 
  
 
-* Spring Boot (Gradle)
+* Spring Boot(Gradle)(ver 2.5.x)
 * View
   * Thymeleaf
 * Database
