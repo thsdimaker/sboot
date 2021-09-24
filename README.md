@@ -10,6 +10,7 @@
  
 
 * Spring Boot(Gradle)(ver 2.5.x)
+  * JDK(11.x)
 * View
   * Thymeleaf
 * Database
