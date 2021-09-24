@@ -20,9 +20,11 @@
 
 
 ### Problem -> Solution Document
-Use Notion
+notion:link
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+* H2 Db연동 후 테스트 하는 것 문서화 시킬 것(시간 다수 소요)
+  1. 설치형
+  2. 비설치형
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
