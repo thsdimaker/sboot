@@ -27,7 +27,7 @@ notion:link
   2. 비설치형
 * Git Reset 하는 것 명령어(원격쪽에 영향X, 로컬단에서만 다시 초기상태로)
   * Reset vs Revert
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+* Notion으로 문서 규격화 시작.
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
