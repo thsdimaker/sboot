@@ -1,5 +1,6 @@
-package jpabook.jpashop.domian;
+package jpabook.jpashop.domian.item;
 
+import jpabook.jpashop.domian.Item;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,7 +11,7 @@ import javax.persistence.Entity;
 @Entity
 @DiscriminatorValue("B")
 @Getter@Setter
-public class Book extends Item{
+public class Book extends Item {
 
     private String author;
     private String isbn;
