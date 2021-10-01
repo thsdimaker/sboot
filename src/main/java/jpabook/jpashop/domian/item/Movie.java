@@ -1,4 +1,9 @@
 package jpabook.jpashop.domian.item;
 
-public class Movie {
+import jpabook.jpashop.domian.Item;
+
+public class Movie extends Item {
+
+    private String director;
+    private String actor;
 }
