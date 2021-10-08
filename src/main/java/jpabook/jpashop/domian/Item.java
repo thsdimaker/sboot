@@ -14,7 +14,8 @@ import java.util.List;
 @Getter @Setter
 public abstract class Item {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "item_id")
     private Long id;
 
@@ -26,15 +27,17 @@ public abstract class Item {
     private List<Category> categorie = new ArrayList<Category>();
 
     /**
-    * Business Logic
-    */
+     * Business Logic
+     */
     public void addStock(int quantity) {
         this.stockQuantity += quantity;
     }
+
     public void removeStock(int quantity) {
         int restStock = this.stockQuantity - quantity;
         if (restStock < 0) {
             throw new NotEnoughStockException("need more stock");
         }
         this.stockQuantity = restStock;
+    }
 }
