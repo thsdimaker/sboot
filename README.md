@@ -35,8 +35,8 @@ notion:link
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
-### Additional Links
-These additional references should also help you:
+### Next Start
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+
+* 기능 테스트 - 주문 엔티티
 
